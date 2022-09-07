@@ -1,34 +1,16 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Fingerprint() {
   return (
     <div className="container">
       <Head>
-        <title>ID Verification</title>
+        <title>Fingerprint | ID Verification</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome, <a href="/">Verify ID!</a>
-        </h1>
+        
 
-        <p className="description">
-          verify identity
-        </p>
-
-        <div className="grid">
-          <a href="/fingerprint" className="card">
-            <h3>Fingerprint &rarr;</h3>
-            <p>Verify identitfy using fingerprint.</p>
-          </a>
-          
-          <a href="/" className="card">
-            <h3>NFC &rarr;</h3>
-            <p>Verify identitfy using NFC Card.</p>
-          </a>
-
-        </div>
       </main>
 
       <footer>
