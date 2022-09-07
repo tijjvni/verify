@@ -18,7 +18,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/fingerprint" className="card">
+          <a href="/login" className="card">
             <h3>Fingerprint &rarr;</h3>
             <p>Verify identitfy using fingerprint.</p>
           </a>
